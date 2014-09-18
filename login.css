@@ -1,0 +1,22 @@
+/*div {
+	border: 1px solid black;
+}*/
+
+.main {
+	margin-top: 4%;
+	font-family: 'Lato';
+	font-weight: 300;
+	margin-bottom: 6%;
+}
+
+.head {
+	font-size: 6em;
+}
+
+.subhead {
+	font-size: 2.3em;
+}
+
+.summary {
+	font-size: 1.5em;
+}
