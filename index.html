@@ -3,45 +3,48 @@
 <head>
     <title> Weigh In </title>
     
-    <!-- Meta -->
+    <!-- Metas -->
     <meta type="author" content="Weigh In"/>
-    <meta type="description" content="Hello world."/>
+    <meta type="description" content="Gamifying crowdsourcing"/>
     <meta name="viewport" content="initial-scale=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
     <meta http-eqiv="content-type" content="text/html; charset=utf-8"/>
     
-    <!-- Links -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300"/>
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,300'/>    
-    
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300"/>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab:300'/>    
+    <!-- bootstrap, font awesome and index.css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
     
 </head>
 
 <body>
-    <ul class="nav nav-tabs" role="tablist">
-        <li class="active"> <a href="index.html"> Home </a></li>
-        <li><a href="#">My Account</a></li>
-        <li><a href="main.html">MajorRep</a></li>
+    <!-- nav tabs w/o bootstrap -->
+    <ul class="navigation">
+        <li> <a  href=""> <i class="fa fa-home active"></i></a></li>
+        <li> <a href="login.html"> <i class="fa fa-user"></i></a></li>
+        <li> <a href="main.html"> <i class="fa fa-send-o"></i></a></li>
     </ul>
 
-    <div class = "container-fluid"> 
+    <!-- nav tabs end -->
 
-        <div class = "row main">
+    <div class = "container-fluid"> 
+        <!-- content -->
+        <div class = "row content">
             <div class = "col-md-1"> </div>
 
             <div class = "col-md-9"> 
-                <h1 class="head"> Weigh In.</h1>
-                <h5 class="subhead">WeighIn is a platform for games with a purpose (GWAP).</h5> 
-                <p class="summary"> Gamifying crowdsourcing.</p> 
+                <p class="head"> Weigh In.</p>
+                <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> 
             </div>
 
             <div class="col-md-2"></div>
-               
         </div>
+        <!-- content end-->
 
+        <!-- buttons -->
         <div class="row buttons text-center">
             <div class="col-md-12">
                 <div class="btn-group">
@@ -50,7 +53,10 @@
                 </div>
             </div>
         </div>
+        <!-- buttons end -->
+
     </div>
+    <!-- container end -->
 
 </body>
 </html>
