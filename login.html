@@ -1,44 +1,62 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title> Weigh In </title>
     
-    <!-- Meta -->
+    <!-- Metas -->
     <meta type="author" content="Weigh In"/>
-    <meta type="description" content="Hello world."/>
+    <meta type="description" content="Gamifying crowdsourcing"/>
     <meta name="viewport" content="initial-scale=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
     <meta http-eqiv="content-type" content="text/html; charset=utf-8"/>
     
     <!-- Links -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300"/>
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,300'/>    
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300"/>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab:300'/>    
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="login.css">
     
 </head>
 
 <body>
-    <ul class="nav nav-tabs" role="tablist">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"> <a href="login.html"> My Account </a></li>
-        <li><a href="main.html">MajorRep</a></li>
+    <!-- nav tabs w/o bootstrap -->
+    <ul class="navigation">
+        <li> <a  href="index.html"> <i class="fa fa-home"></i></a></li>
+        <li> <a href=""> <i class="fa fa-user active"></i></a></li>
+        <li> <a href="main.html"> <i class="fa fa-send-o"></i></a></li>
     </ul>
+
+    <!-- nav tabs end -->
 
     <div class = "container-fluid"> 
 
-        <div class = "row main">
+        <div class = "row content">
             <div class = "col-md-3"> </div>
 
             <div class = "col-md-6"> 
-                <h3 class="subhead"> My Account</h3>
-                <form action="">
-                Username: <input type="text" name="user"><br>
-                Password:  <input type="password" name="password"> 
-                </form> 
+                <h3 class="head"> My Account</h3>
+                <div class="login">
+                    <h1>Login</h1>
+                    <form method="post" action="">
+                        <p><input type="text" name="user" value="" placeholder="Username or Email"></p>
+                        <p><input type "password" name="password" value="" placeholder="Password"></p> 
+                        <p class="remember_me">
+                          <label>
+                           <label>
+                            <input type="checkbox" name="remember_me" id="remember_me">
+                            Remember me on this computer
+                           </label>
+                          </label>
+                        </p>
+                        <p class="submit"><input type="submit" name="commit" value="Login"></p>
+                    </form> 
+                </div>
+
                 <!-- Password reset... needs real link -->
-                <a href="http://www.google.com">Forgot Password?</a>
+                <div class="login-help">
+                <p>Forgot Password? <a href="#">Click here to reset it</a></p>
                 <p> Click below to login, or to register if this is your first time (it's free)!</p>
                 <p> Why register? Registering connects your Facebook or Twitter account to MajorRep, which enables you to upload your own photos to be judged by others (and you know everyone loves being judged :D)! </p>
                 <p>Then you'll be able to track what others think of you based on your photos.</p>

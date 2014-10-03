@@ -2,21 +2,59 @@
 	border: 1px solid black;
 }*/
 
-.main {
-	margin-top: 4%;
+body {
 	font-family: 'Lato';
 	font-weight: 300;
-	margin-bottom: 6%;
+	padding-bottom: 5%;
+}
+
+.content {
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 
 .head {
-	font-size: 6em;
+	font-size: 4em;
+	margin-bottom: -3px;
 }
 
-.subhead {
-	font-size: 2.3em;
+.login {
+  	position: relative;
+  	margin: 0 auto;
+  	padding: 20px 20px;
+	
 }
 
-.summary {
-	font-size: 1.5em;
+.buttons {
+	margin-bottom: 5%;
 }
+
+/* CSS for nav bar */
+
+.navigation li {
+	display: inline-block;
+	padding-right: 18px;
+	padding-left: 18px;
+	font-size: 1.2em; 
+}
+
+.navigation {
+	padding: 1%;
+	background-color: rgba(105,105,105,0.9);
+	border-bottom: 1px solid black;
+}
+
+.navigation li a {
+	color: gray;
+}
+
+.fa {
+	color: white;
+	font-size: 1.7em;
+}
+.active {
+	color: black;
+	font-size: 1.75em;
+}
+
+/* color of text in links (normal + hover) */
