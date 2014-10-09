@@ -3,7 +3,7 @@
 <head>
     <title> My Account </title>
     
-    <!-- Meta -->
+    <!-- Metas -->
     <meta type="author" content="Weigh In"/>
     <meta type="description" content="Gamifying crowdsourcing"/>
     <meta name="viewport" content="initial-scale=1"/>
@@ -11,22 +11,24 @@
     <meta http-eqiv="content-type" content="text/html; charset=utf-8"/>
     
     <!-- Links -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300"/>
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,300'/>    
-
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300"/>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab:300'/>    
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
 
 </head>
-<body>
 
-    <ul class="nav nav-tabs" role="tablist">
-        <li> <a href="index.html"> WeighIn </a></li>
-        <li><a href="#">My Account</a></li>
-        <li class="active"><a href="main.html">Start Weighing</a></li>
+<body>
+    <!-- nav tabs w/o bootstrap -->
+    <ul class="navigation">
+        <li> <a  href="index.html"> <i class="fa fa-home"></i></a></li>
+        <li> <a href="login.html"> <i class="fa fa-user"></i></a></li>
+        <li> <a href=""> <i class="fa fa-send-o active"></i></a></li>
     </ul>
+
+    <!-- nav tabs end -->
 
     <div class="container-fluid main">
         <div class="row text-center photo-nav">
@@ -34,7 +36,7 @@
                 <p class="arrow"><</p>
             </div>
             <div class="col-md-6">
-                <p class="image"><img class="cat" src="/thomas.jpg" alt=""></p>
+                <p class="image"><img class="cat" src="thomas.jpg" alt=""></p>
             </div>
             <div class="col-md-3">
                 <p class="arrow">></p>

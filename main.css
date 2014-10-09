@@ -1,3 +1,8 @@
+body {
+	font-family: 'Lato';
+	font-weight: 300;
+	padding-bottom: 5%;
+}
 .main  {
 	font-family: 'Roboto Slab';
 	font-weight: 300;
@@ -23,4 +28,32 @@
 
 .arrow {
 	font-size: 1.4em;
+}
+
+/* CSS for nav bar */
+
+.navigation li {
+	display: inline-block;
+	padding-right: 18px;
+	padding-left: 18px;
+	font-size: 1.2em; 
+}
+
+.navigation {
+	padding: 1%;
+	background-color: rgba(105,105,105,0.9);
+	border-bottom: 1px solid black;
+}
+
+.navigation li a {
+	color: gray;
+}
+
+.fa {
+	color: white;
+	font-size: 1.7em;
+}
+.active {
+	color: black;
+	font-size: 1.75em;
 }
